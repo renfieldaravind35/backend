@@ -1,0 +1,46 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "# This container uses MongoDB shell version v5.0.6\n",
+        "\n",
+        "version: '3.8'\n",
+        "\n",
+        "services:\n",
+        "  mongodb:\n",
+        "    image: 'mongo'\n",
+        "    ports:\n",
+        "      - '8094:27017'\n",
+        "    environment:\n",
+        "      MONGO_INITDB_ROOT_USERNAME: rootuser\n",
+        "      MONGO_INITDB_ROOT_PASSWORD: rootpass\n",
+        "    volumes:\n",
+        "      - data:/data\n",
+        "    container_name: 'mongodb'\n",
+        "\n",
+        "volumes:\n",
+        "  data: {}"
+      ],
+      "metadata": {
+        "id": "Ilxk7LJ5Igh_"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "HELP.md\n",
+        "target/\n",
+        "!.mvn/wrapper/maven-wrapper.jar\n",
+        "!**/src/main/**/target/\n",
+        "!**/src/test/**/target/\n",
+        "\n",
+        "### STS ###\n",
+        ".apt_generated\n",
+        ".classpath\n",
+        ".factorypath\n",
+        ".project\n",
+        ".settings\n",
+        ".springBeans\n",
+        ".sts4-cache\n",
+        "\n",
+        "### IntelliJ IDEA ###\n",
+        ".idea\n",
+        "*.iws\n",
+        "*.iml\n",
+        "*.ipr\n",
+        "\n",
+        "### NetBeans ###\n",
+        "/nbproject/private/\n",
+        "/nbbuild/\n",
+        "/dist/\n",
+        "/nbdist/\n",
+        "/.nb-gradle/\n",
+        "build/\n",
+        "!**/src/main/**/build/\n",
+        "!**/src/test/**/build/\n",
+        "\n",
+        "### VS Code ###\n",
+        ".vscode/*\n",
+        "!.vscode/settings.json\n",
+        "!.vscode/tasks.json\n",
+        "!.vscode/launch.json\n",
+        "!.vscode/extensions.json\n",
+        "!.vscode/*.code-snippets\n",
+        "\n",
+        "# Local History for Visual Studio Code\n",
+        ".history/\n",
+        "\n",
+        "# Built Visual Studio Code Extensions\n",
+        "*.vsix\n",
+        "\n",
+        "# Java\n",
+        "# Compiled class file\n",
+        "*.class\n",
+        "\n",
+        "# Log file\n",
+        "*.log\n",
+        "\n",
+        "# BlueJ files\n",
+        "*.ctxt\n",
+        "\n",
+        "# Mobile Tools for Java (J2ME)\n",
+        ".mtj.tmp/\n",
+        "\n",
+        "# Package Files #\n",
+        "*.jar\n",
+        "*.war\n",
+        "*.nar\n",
+        "*.ear\n",
+        "*.zip\n",
+        "*.tar.gz\n",
+        "*.rar\n",
+        "\n",
+        "# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml\n",
+        "hs_err_pid*\n",
+        "replay_pid*"
+      ],
+      "metadata": {
+        "id": "7RwI9atTIMWs"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
